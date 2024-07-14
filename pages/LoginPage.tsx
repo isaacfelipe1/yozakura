@@ -67,7 +67,7 @@ const LoginPage = () => {
               value={formData.email}
               onChange={handleChange}
               required
-              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-[#e76e61] focus:border-[#e76e61] sm:text-sm"
             />
           </div>
           <div className="mb-4">
@@ -84,7 +84,7 @@ const LoginPage = () => {
               value={formData.password}
               onChange={handleChange}
               required
-              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+              className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-[#e76e61] focus:border-[#e76e61] sm:text-sm"
             />
           </div>
           <div className="mb-4">
@@ -104,7 +104,7 @@ const LoginPage = () => {
           </div>
           <button
             type="submit"
-            className={`w-full inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-[#f39288] hover:bg-[#e98a80] focus:ring-offset-2 focus:ring-indigo-500 ${
+            className={`w-full inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-[#f39288] hover:bg-[#e98a80] focus:ring-offset-2 focus:ring-[#e76e61] ${
               loading ? 'opacity-50 cursor-not-allowed' : ''
             }`}
             disabled={loading}
