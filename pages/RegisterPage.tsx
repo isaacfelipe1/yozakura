@@ -67,7 +67,7 @@ const RegisterPage = () => {
       <div className="flex-grow container mx-auto p-4 flex flex-col items-center justify-center text-center">
         <h2 className="text-4xl font-bold mb-8">Cadastre-se gratuitamente</h2>
         {errorMessage && (
-          <div className="mb-4 text-red-500">{errorMessage}</div>
+          <div className="mb-4 text-[#e76e61]">{errorMessage}</div>
         )}
         <form
           onSubmit={handleSubmit}
