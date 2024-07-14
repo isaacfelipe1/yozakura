@@ -57,7 +57,7 @@ const ClientNavbar: React.FC = () => {
               className="text-white font-bold flex items-center space-x-2"
             >
               <MdPostAdd className="text-2xl" />{' '}
-              <span className="text-sm hover:text-[#F2E981]">Novo Post</span>
+              <span className="text-sm hover:text-[#F2E981]">Criar Post</span>
             </Link>
             <Link
               href="/cliente/page"
