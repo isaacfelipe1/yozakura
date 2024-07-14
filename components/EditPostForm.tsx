@@ -94,7 +94,7 @@ const EditPostForm = ({ postId }: { postId: number }) => {
           }`}
           disabled={loading}
         >
-          {loading ? 'Carregando...' : 'Salvar Alterações'}
+          {loading ? 'Carregando...' : 'Salvar suas Alterações'}
         </button>
       </form>
     </div>
