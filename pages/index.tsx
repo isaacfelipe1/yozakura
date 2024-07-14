@@ -6,7 +6,6 @@ import './../src/app/globals.css'
 import Navbar from '../components/navbar'
 import ClientNavbar from '../components/ClientNavbar'
 import VLibras from 'vlibras-nextjs'
-import WhatsApp from '../components/whatsapp'
 import { useAuth } from '../src/app/context/AuthContext'
 import { parseCookies } from 'nookies'
 
@@ -50,7 +49,6 @@ const HomePage: React.FC<HomePageProps> = ({ isLoggedIn }) => {
           </article>
           <Posts />
         </main>
-        <WhatsApp />
       </div>
       <Footer />
     </div>
