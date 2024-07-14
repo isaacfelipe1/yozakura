@@ -56,7 +56,6 @@ const UserPosts = () => {
       }
     } catch (error) {
       console.error('Erro ao buscar post para edição:', error);
-      // setErrorMessage('Erro ao buscar post para edição. Por favor, tente novamente mais tarde.');
     }
   };
 
@@ -187,7 +186,7 @@ const UserPosts = () => {
                 onClick={handleLoadMore}
                 className="px-4 py-2 bg-indigo-600 text-white rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
               >
-                Carregar mais
+                Carregar mais Posts
               </button>
             </div>
           )}
