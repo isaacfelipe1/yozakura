@@ -41,7 +41,7 @@ Siga os passos abaixo para clonar este repositório em sua máquina local.
 
 Abrir o projeto em Localhost: [http://localhost:3000]
 
-Bem-vindo ao projeto! Aqui está imagens do Blog que fizemos.
+Bem-vindo ao projeto! Aqui está imagens do Blog que fizemos, o projeto está em constante desenvolvimento.
 ### Tela Home
 ![Página de Home](foto-readme/home.png)
 ### Tela Login
