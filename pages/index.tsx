@@ -41,11 +41,6 @@ const HomePage: React.FC<HomePageProps> = ({ isLoggedIn }) => {
               conteúdo de qualidade que informe, eduque e entretenha nossos
               leitores.
             </p>
-            <p>
-              Nossa equipe está empenhada em manter este blog atualizado com
-              novos artigos regularmente. Esperamos que você desfrute da sua
-              visita e encontre informações úteis aqui.
-            </p>
           </article>
           <Posts />
         </main>
