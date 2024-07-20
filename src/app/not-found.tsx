@@ -9,7 +9,7 @@ export default function NotFound() {
         alt="Página não encontrada"
         className="w-64 h-64 mb-6"
       />
-      <h2 className="text-4xl font-bold text-red-600">Página não existe</h2>
+      <h2 className="text-4xl font-bold text-red-600"> Está Página não existe</h2>
       <p className="text-lg mt-4 text-gray-700">
         A página que você está procurando não foi encontrada.
       </p>
@@ -17,7 +17,7 @@ export default function NotFound() {
         href="/"
         className="mt-6 px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition duration-300"
       >
-        Voltar para Home
+        Voltar
       </Link>
       <Footer />
     </div>
