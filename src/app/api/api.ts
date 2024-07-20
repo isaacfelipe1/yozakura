@@ -166,7 +166,7 @@ export const loginUser = async (loginData: LoginDto): Promise<void> => {
   });
 
   if (!response.ok) {
-    throw new Error('Erro ao fazer login');
+    throw new Error('Erro ao fazer login, tente novamente');
   }
 }
 
@@ -177,7 +177,7 @@ export const fetchUser = async (): Promise<User> => {
   });
 
   if (!response.ok) {
-    throw new Error('Erro ao buscar dados do usuário');
+    throw new Error('Erro ao buscar dados do usuário!');
   }
 
   const data: User = await response.json();
