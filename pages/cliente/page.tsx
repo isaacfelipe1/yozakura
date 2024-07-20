@@ -37,7 +37,7 @@ const ClientePage: React.FC = () => {
     <div className="flex flex-col min-h-screen">
       <ClientNavbar />
       <div className="flex-grow container mx-auto p-4 flex flex-col items-center justify-center text-center">
-        <h2 className="text-4xl font-bold mb-8">Área do Usuário</h2>
+        <h2 className="text-4xl font-bold mb-8">Dashboard</h2>
         <p>Bem-vindo ao Blog Yozakura, {userEmail}!</p>
         {message && (
           <div
