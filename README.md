@@ -43,12 +43,12 @@ Abrir o projeto em Localhost: [http://localhost:3000]
 
 Bem-vindo ao projeto! Aqui está imagens do Blog que fizemos, o projeto está em constante desenvolvimento.
 ### Tela Home
-![Página de Home](foto-readme/home.png)
+![Página de Home](assets/home.png)
 ### Tela Login
-![Página de Login](foto-readme/login.png)
+![Página de Login](assets/login.png)
 ### Tela de Cadastro
-![Página de cadastro](foto-readme/cadastro.png)
+![Página de cadastro](assets/cadastro.png)
 ### Tela área do usuário
-![Página área do usário](foto-readme/areaCliente.png)
+![Página área do usário](assets/areaCliente.png)
 ### Tela área de post do Usuário
-![Página área do usuário](foto-readme/areaPost.png)
+![Página área do usuário](assets/areaPost.png)
