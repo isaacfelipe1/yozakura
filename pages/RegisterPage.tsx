@@ -54,6 +54,7 @@ const RegisterPage = () => {
     try {
       await registerUser(formData)
       console.log('Usuário registrado com sucesso!')
+      window.alert('Cadastro realizado com sucesso!');
       router.push('/LoginPage')
     } catch (error: any) {
       console.error('Erro ao registrar usuário:', error.message)
