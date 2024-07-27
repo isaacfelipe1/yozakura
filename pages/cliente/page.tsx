@@ -39,7 +39,7 @@ const ClientePage: React.FC = () => {
       <ClientNavbar />
       <div className="flex-grow container mx-auto p-4 flex flex-col items-center justify-center text-center">
         <h2 className="text-4xl font-bold mb-8">Dashboard</h2>
-        <p>Bem-vindo ao Blog Yozakura, {userEmail}!</p>
+        <p>Bem-vindo ao Blog Yozakura, {userEmail}!</p><hr  className="my-4"/>
         <DeleteAccountButton />
         {message && (
           <div
