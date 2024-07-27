@@ -8,8 +8,20 @@ export const metadata: Metadata = {
   title: "Blog Yozakura",
   description: "Bem vindo ao blog Yozakura",
   keywords: ["blog", "yozakura", "nextjs"],
-  robots: "index, follow",
   viewport: "width=device-width, initial-scale=1.0",
+  openGraph: {
+    title: "Blog Yozakura",
+    description: "Bem vindo ao blog Yozakura",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
   
 };
 export default function RootLayout({
