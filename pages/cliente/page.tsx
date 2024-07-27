@@ -5,6 +5,7 @@ import Footer from '../../components/footer'
 import { useAuth } from '../../src/app/context/AuthContext'
 import withAuth from '../../components/Auth'
 import { fetchUser, User } from '../../src/app/api/api'
+import DeleteAccountButton from '../../components/DeleteAccountButton'
 
 const ClientePage: React.FC = () => {
   const { logout, isLoggedIn } = useAuth()
@@ -39,6 +40,7 @@ const ClientePage: React.FC = () => {
       <div className="flex-grow container mx-auto p-4 flex flex-col items-center justify-center text-center">
         <h2 className="text-4xl font-bold mb-8">Dashboard</h2>
         <p>Bem-vindo ao Blog Yozakura, {userEmail}!</p>
+        <DeleteAccountButton />
         {message && (
           <div
             className={`mb-4 ${message.includes('sucesso') ? 'text-green-500' : 'text-red-500'}`}

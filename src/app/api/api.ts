@@ -30,6 +30,10 @@ export interface LoginDto {
   rememberMe: boolean;
 }
 
+export interface UpdateUserDto {
+  email: string;
+}
+
 export interface User {
   id: string;
   email: string;
@@ -166,7 +170,7 @@ export const loginUser = async (loginData: LoginDto): Promise<void> => {
   });
 
   if (!response.ok) {
-    throw new Error('Erro ao fazer login, tente novamente');
+    throw new Error('Erro ao fazer login');
   }
 }
 
@@ -177,9 +181,35 @@ export const fetchUser = async (): Promise<User> => {
   });
 
   if (!response.ok) {
-    throw new Error('Erro ao buscar dados do usuário!');
+    throw new Error('Erro ao buscar dados do usuário');
   }
 
   const data: User = await response.json();
   return data;
+}
+
+export const updateUser = async (updateData: UpdateUserDto): Promise<void> => {
+  const response = await fetch(`${AUTH_API_BASE_URL}/update`, {
+    method: 'PUT',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(updateData),
+    credentials: 'include',
+  });
+
+  if (!response.ok) {
+    throw new Error('Erro ao atualizar usuário');
+  }
+}
+
+export const deleteUser = async (): Promise<void> => {
+  const response = await fetch(`${AUTH_API_BASE_URL}/delete`, {
+    method: 'DELETE',
+    credentials: 'include',
+  });
+
+  if (!response.ok) {
+    throw new Error('Erro ao deletar usuário');
+  }
 }
