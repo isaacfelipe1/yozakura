@@ -45,7 +45,7 @@ const CreatePostForm = () => {
   }
 
   return (
-    <div className="flex items-start justify-center min-h-screen bg-gray-100 pt-16">
+    <div className="flex items-start justify-center min-h-screen  pt-16">
       <form
         onSubmit={handleSubmit}
         className="w-full max-w-xl bg-white p-12 border border-gray-200 rounded-lg shadow-md text-left"
@@ -73,7 +73,7 @@ const CreatePostForm = () => {
         <div className="mb-4">
           <label
             htmlFor="content"
-            className="block text-sm font-medium text-gray-700"
+            className=" text-sm font-medium text-gray-700"
           >
             Conteúdo
           </label>
