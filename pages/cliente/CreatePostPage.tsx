@@ -8,7 +8,7 @@ const CreatePostPage: React.FC = () => {
   return (
     <>
       <ClientNavbar />
-      <div className="flex-grow container mx-auto px-4 py-8">
+      <div className=" flex flex-col min-h-screen">
         <CreatePostForm />
       </div>
       <Footer />
