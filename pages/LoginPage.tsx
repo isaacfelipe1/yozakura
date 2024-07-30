@@ -58,7 +58,7 @@ const LoginPage = () => {
               htmlFor="email"
               className="block text-sm font-medium text-gray-700"
             >
-              Email
+              Email*
             </label>
             <input
               type="email"
@@ -75,7 +75,7 @@ const LoginPage = () => {
               htmlFor="password"
               className="block text-sm font-medium text-gray-700"
             >
-              Senha
+              Senha*
             </label>
             <input
               type="password"
