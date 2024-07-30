@@ -70,7 +70,7 @@ const ClientNavbar: React.FC = () => {
               onClick={handleLogout}
               className="text-white flex items-center cursor-pointer"
             >
-              <span className=" hover:text-[#F2E981]">Sair</span>
+              <span className=" font-bold hover:text-[#F2E981]">Sair</span>
             </div>
           </div>
         </div>
