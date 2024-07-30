@@ -70,7 +70,8 @@ const ClientNavbar: React.FC = () => {
               onClick={handleLogout}
               className="text-white flex items-center cursor-pointer"
             >
-              <TbLogout className="text-2xl hover:text-[#F2E981]" />
+              {/* <TbLogout className="text-2xl hover:text-[#F2E981]" /> */}
+              <span className=" hover:text-[#F2E981]">Sair</span>
             </div>
           </div>
         </div>
